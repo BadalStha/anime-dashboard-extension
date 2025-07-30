@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Icon Resizer</title>
+</head>
+<body>
+    <canvas id="canvas" width="128" height="128" style="border: 1px solid #ccc;"></canvas>
+    <script>
+        // Create a 128x128 anime-style icon
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Gradient background
+        const gradient = ctx.createLinearGradient(0, 0, 128, 128);
+        gradient.addColorStop(0, '#667eea');
+        gradient.addColorStop(1, '#764ba2');
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, 128, 128);
+        
+        // Draw anime-style character silhouette
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+        ctx.beginPath();
+        ctx.arc(64, 45, 25, 0, Math.PI * 2);
+        ctx.fill();
+        
+        // Body
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+        ctx.fillRect(52, 70, 24, 35);
+        
+        // Arms
+        ctx.fillRect(40, 75, 12, 20);
+        ctx.fillRect(76, 75, 12, 20);
+        
+        // Add some anime-style details
+        ctx.fillStyle = '#ff6b6b';
+        ctx.beginPath();
+        ctx.arc(64, 110, 8, 0, Math.PI * 2);
+        ctx.fill();
+        
+        // Add text
+        ctx.fillStyle = 'white';
+        ctx.font = 'bold 12px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText('ANIME', 64, 25);
+        
+        // Download the image
+        setTimeout(() => {
+            const link = document.createElement('a');
+            link.download = 'icon128.png';
+            link.href = canvas.toDataURL();
+            link.click();
+        }, 1000);
+    </script>
+</body>
+</html>

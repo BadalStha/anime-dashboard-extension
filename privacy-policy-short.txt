@@ -1,0 +1,37 @@
+PRIVACY POLICY - ANIME DASHBOARD EXTENSION
+
+INFORMATION WE COLLECT:
+- Local storage only: Custom wallpapers, user preferences, and settings
+- NO personal data, browsing history, location, or tracking information collected
+
+DATA USAGE:
+- All data processing happens locally on your device
+- Settings and wallpapers stored in browser's localStorage only
+- Anime quotes fetched from public API (animechan.vercel.app) with no personal data sent
+- No data transmission to our servers
+
+DATA SHARING:
+- We NEVER share, sell, or transmit user data
+- No third-party analytics, advertising, or tracking
+- Extension is open source for transparency
+
+PERMISSIONS:
+- Storage permission: Only to save local preferences and wallpapers
+- No network permissions beyond public quote API access
+
+USER CONTROL:
+- Full control over your data
+- Delete data anytime using "Reset All" button
+- No account registration required
+- Works offline
+
+SECURITY:
+- All processing happens locally in your browser
+- No external data storage or transmission
+- Browser's built-in security protects your data
+
+CONTACT:
+Developer: Badal Shrestha
+GitHub: https://github.com/BadalStha/anime-dashboard-extension
+
+This extension prioritizes user privacy by keeping all data local and not collecting any personal information.

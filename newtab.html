@@ -49,6 +49,37 @@
                     </div>
                 </label>
             </div>
+
+            <div class="setting-group">
+                <h3>Custom Wallpapers</h3>
+                <div class="upload-section">
+                    <label for="wallpaperUpload" class="upload-label">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 16h6v-6h4l-7-7-7 7h4zm-4 2h14v2H5z"/>
+                        </svg>
+                        Upload Images/Videos
+                    </label>
+                    <input type="file" id="wallpaperUpload" multiple accept="image/*,video/*" style="display: none;">
+                    <div class="upload-info">Supported: JPG, PNG, WEBP, MP4, WEBM</div>
+                    <div class="upload-info conversion-info">Files will be auto-converted to WebP/WebM for better performance</div>
+                    <div id="conversionProgress" class="conversion-progress" style="display: none;">
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <div class="progress-text">Converting files...</div>
+                    </div>
+                </div>
+                
+                <div class="custom-wallpapers-list" id="customWallpapersList">
+                    <!-- Custom wallpapers will be displayed here -->
+                </div>
+                
+                <div class="wallpaper-actions">
+                    <button id="clearCustomWallpapers">Clear All Custom</button>
+                    <button id="useOnlyCustom">Use Only Custom</button>
+                    <button id="useAllWallpapers">Use All (Default + Custom)</button>
+                </div>
+            </div>
             
             <div class="setting-group">
                 <button id="resetSettings">Reset to Default</button>

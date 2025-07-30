@@ -1,0 +1,118 @@
+body {
+    width: 300px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.setting {
+    margin-bottom: 15px;
+}
+
+.setting-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+select, input[type="text"], input[type="number"], input[type="url"], input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+select:focus, input:focus, textarea:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+option {
+    background: #333;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: background 0.3s ease;
+}
+
+.full-width {
+    width: 100%;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.section h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.info {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle input[type="checkbox"] {
+    width: auto;
+}
+
+.status {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.status.success {
+    background: rgba(76, 175, 80, 0.3);
+    border: 1px solid rgba(76, 175, 80, 0.5);
+}
+
+.status.error {
+    background: rgba(244, 67, 54, 0.3);
+    border: 1px solid rgba(244, 67, 54, 0.5);
+}
