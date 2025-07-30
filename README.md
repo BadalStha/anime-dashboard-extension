@@ -9,6 +9,8 @@ A beautiful new tab dashboard featuring anime wallpapers and inspirational anime
 - Time and date display
 - Customizable settings
 - Toggle time/date and quote visibility
+<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/a2c1e223-2d57-4593-80b7-2033b1ed06eb" />
+
 
 ## Installation Instructions
 1. Download the `anime-dashboard.zip` file
