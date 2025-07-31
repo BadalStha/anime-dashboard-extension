@@ -13,6 +13,8 @@ A beautiful new tab dashboard featuring anime wallpapers and inspirational anime
 
 
 ## Installation Instructions
+Note: For FireFox & Opera Users You can get this extension in the officail Store.
+https://addons.mozilla.org/en-US/firefox/addon/anime-dashboard/
 1. Download the `anime-dashboard.zip` file
 2. Extract the zip file to a folder on your computer (remember where you put it!)
 3. Open Chrome and go to `chrome://extensions/` (copy and paste this in your address bar)
